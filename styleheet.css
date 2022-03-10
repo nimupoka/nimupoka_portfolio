@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    font-family: "筑紫A丸ゴシック";
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 0;
+}
+
+
+/*header*/
+
+header {
+    background-color: #507880;
+    color: #B6B6B6;
+    padding-bottom: 75px;
+}
+
+.header_logo{
+    color: #B6B6B6;
+    font-size: 45px;
+    float: left;
+    padding: 0 15px;
+}
+
+.header_list li{
+    float: left;
+    padding: 25px;
+}
+
+
+/*main*/
+
+main {
+    background-color: #B6B6B6;
+    color: #333;
+}
+
+.main_top_img{
+    width: 100%;
+    height: auto;
+}
+
+.main_top_icon {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_top_name {
+    text-align: center;
+    margin-top: -25px;
+    font-size: 50px;
+}
+
+.center {
+    margin: 0 150px;
+}
+
+section {
+    margin: 100px 0;
+}
+
+.sec_pro {
+    margin: 100px 0 0 0;
+}
+
+.products_img {
+    width: 100%;
+    height: auto;
+}
+
+.products_logo {
+    font-family: "筑紫A丸ゴシック";
+    border-bottom: 1px solid #333;
+    margin-bottom: 25px;
+}
+
+.products-item {
+    background-color: #507880;
+    color: #B6B6B6;
+    width: 250px;
+    height: 350px;
+    margin-bottom: 50px;
+}
+
+.products-item h3 {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #507880;
+    padding-bottom: 75px;
+    width: 100%;
+    float: left;
+}
+
+.footer_logo{
+    color: #B6B6B6;
+    font-size: 25px;
+    float: left;
+    padding: 10px 15px;
+}
+
+.header_list li{
+    color: #B6B6B6;
+    float: right;
+    padding: 25px;
+}
