@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    font-family: "筑紫A丸ゴシック";
+    /*font-family: "筑紫A丸ゴシック";*/
+    font-family: 'Zen Maru Gothic', sans-serif;
 }
 
 li {
