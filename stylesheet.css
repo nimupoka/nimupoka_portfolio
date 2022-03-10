@@ -1,11 +1,13 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url(https://fontplus.jp/font-list/tsukuardgothicstd-b);
+}
+
+
 *{
     margin: 0;
     /*font-family: "筑紫A丸ゴシック";*/
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-family: 'Zen Maru Gothic', sans-serif;
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-family: 'Zen Maru Gothic', sans-serif;
+    font-family: MyFont;
 }
 
 li {
