@@ -99,6 +99,7 @@ section {
     width: 250px;
     height: 350px;
     margin-bottom: 50px;
+    float: left;
 }
 
 .products-item h3 {
