@@ -1,15 +1,9 @@
-@font-face {
-	font-family: 'Fredoka', sans-serif;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	font-family: 'Zen Maru Gothic', sans-serif;
-}
-
-
 *{
     margin: 0;
     /*font-family: "筑紫A丸ゴシック";*/
-    font-family: MyFont;
 }
+
+.wf-mplus1p { font-family: "M PLUS 1p"; }
 
 li {
     list-style: none;
