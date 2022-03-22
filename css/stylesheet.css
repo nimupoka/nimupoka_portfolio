@@ -6,17 +6,6 @@
 
 .wf-mplus1p { font-family: "M PLUS 1p"; }
 
-/*リンクの色変えない*/
-a,a:hover,a:visited{
-    color: inherit;
-}
-
-/*訪問後のリンクの色変えない*/
-a,a:visited{
-    color: #B6B6B6;/*カラーコードは任意*/
-    text-decoration: none;
-}
-
 li {
     list-style: none;
 }
@@ -48,6 +37,17 @@ header {
 .header_list li{
     float: left;
     padding: 25px;
+}
+
+/*リンクの色変えない*/
+header a, header a:hover,a:visited{
+    color: inherit;
+}
+
+/*訪問後のリンクの色変えない*/
+header a, header a:visited{
+    color: #B6B6B6;/*カラーコードは任意*/
+    text-decoration: none;
 }
 
 
@@ -87,13 +87,25 @@ section {
     margin: 100px 0;
 }
 
+/*リンクの色変えない*/
+main a, main a:hover,a:visited{
+    color: inherit;
+}
+
+/*訪問後のリンクの色変えない*/
+main a, main a:visited{
+    color: #333;/*カラーコードは任意*/
+    text-decoration: none;
+}
+
 .sec_pro {
-    margin: 100px 0 0 0;
+    margin: 100px 0;
 }
 
 .products_img {
     width: 100%;
     height: auto;
+    border-radius: 5px 5px 0 0; /*角丸*/
 }
 
 .products_logo {
@@ -105,20 +117,27 @@ section {
 .products-item {
     background-color: #507880;
     color: #B6B6B6;
-    width: 250px;
-    height: 350px;
+    width: 46%;
+    height: 100%;
     margin-bottom: 50px;
-    margin-right: 25px;
+    margin-right: 2%;
+    margin-left: 2%;
     float: left;
-}
-
-.products-item p{
-    margin: 15px;
+    border-radius: 5px; /*角丸*/
+    box-shadow: 0px 2.5px 5px rgba(51, 51, 51, 0.5);
 }
 
 .products-item h3 {
-    margin-top: 5px;
-    margin-left: 15px;
+    margin: 15px 0px 5% 5%;
+}
+
+.products-item p {
+    margin: 15px 15px 15px 15px;
+}
+
+.products-item h4 {
+    margin: 25px;
+    float: right;
 }
 
 
