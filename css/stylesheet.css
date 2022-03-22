@@ -6,6 +6,16 @@
     font-family: 'Zen Maru Gothic', sans-serif;
 }
 
+/*リンクの色変えない*/
+a,a:hover,a:visited{
+    color: inherit;
+}
+
+/*訪問後のリンクの色変えない*/
+a,a:visited{
+    color: #0071d1;/*カラーコードは任意*/
+}
+
 li {
     list-style: none;
 }
