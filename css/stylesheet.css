@@ -1,10 +1,10 @@
 *{
     margin: 0;
     /*font-family: "筑紫A丸ゴシック";*/
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-family: 'Zen Maru Gothic', sans-serif;
 }
+
+.wf-mplus1p { font-family: "M PLUS 1p"; }
 
 /*リンクの色変えない*/
 a,a:hover,a:visited{
@@ -13,7 +13,8 @@ a,a:hover,a:visited{
 
 /*訪問後のリンクの色変えない*/
 a,a:visited{
-    color: #0071d1;/*カラーコードは任意*/
+    color: #B6B6B6;/*カラーコードは任意*/
+    text-decoration: none;
 }
 
 li {
@@ -72,6 +73,7 @@ main {
 .main_top_name {
     text-align: center;
     margin-top: -25px;
+    margin-bottom: 20px;
     font-size: 50px;
 }
 
