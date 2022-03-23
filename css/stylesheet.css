@@ -140,6 +140,18 @@ main a, main a:visited{
     margin: 15px 15px 15px 15px;
 }
 
+/*リンクの色変えない*/
+.products-item p a, .products-item p a:hover,a:visited{
+    color: inherit;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+/*訪問後のリンクの色変えない*/
+.products-item p a, .products-item p a:visited{
+    color: #B6B6B6;/*カラーコードは任意*/
+    text-decoration: none;
+}
+
 .products-item h6 {
     margin: 5px 15px 0px 15px;
     font-size: small;
