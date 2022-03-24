@@ -1,4 +1,4 @@
 # nimupoka_portfolio
 
-nimupokaのポートフォリオです．maropook先生のパクリ．
+nimupokaのポートフォリオです．maropook先生の真似をしているところ．
 https://nimupoka.github.io/nimupoka_portfolio/
