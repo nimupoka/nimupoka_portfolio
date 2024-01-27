@@ -107,6 +107,11 @@ main a, main a:visited{
     margin: 100px 0;
 }
 
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .products_img {
     width: 100%;
     height: auto;
